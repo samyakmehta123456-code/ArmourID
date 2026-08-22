@@ -1,6 +1,8 @@
 {
+  "id": "/",
   "short_name": "ArmourID",
   "name": "ArmourID - Secure Vault",
+  "description": "Secure AI-driven identity vault & scoped auto-fill app",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,6 +11,7 @@
     }
   ],
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#34C759",
