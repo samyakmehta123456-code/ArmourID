@@ -1,0 +1,270 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="fadeGlow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#047857" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#C9A227" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#F2F4F7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  {/* Soft Background Gradient */}
+  <rect width="1000" height="1000" fill="url(#fadeGlow)" />
+
+  {/* 3D Halftone Wavy Dot Mesh Grid */}
+  <g fill="#101828" fill-opacity="0.07">
+    {/* Row 1 - Upper Wave */}
+    <circle cx="50" cy="50" r="2.5" />
+    <circle cx="100" cy="48" r="3.0" />
+    <circle cx="150" cy="44" r="3.5" />
+    <circle cx="200" cy="40" r="4.0" />
+    <circle cx="250" cy="38" r="4.5" />
+    <circle cx="300" cy="40" r="5.0" />
+    <circle cx="350" cy="45" r="5.5" />
+    <circle cx="400" cy="52" r="6.0" />
+    <circle cx="450" cy="60" r="6.2" />
+    <circle cx="500" cy="68" r="6.5" />
+    <circle cx="550" cy="72" r="6.2" />
+    <circle cx="600" cy="70" r="5.8" />
+    <circle cx="650" cy="62" r="5.2" />
+    <circle cx="700" cy="52" r="4.5" />
+    <circle cx="750" cy="42" r="3.8" />
+    <circle cx="800" cy="36" r="3.2" />
+    <circle cx="850" cy="35" r="2.8" />
+    <circle cx="900" cy="38" r="2.5" />
+    <circle cx="950" cy="45" r="2.2" />
+
+    {/* Row 2 */}
+    <circle cx="50" cy="100" r="3.0" />
+    <circle cx="100" cy="95" r="3.8" />
+    <circle cx="150" cy="88" r="4.5" />
+    <circle cx="200" cy="80" r="5.2" />
+    <circle cx="250" cy="74" r="5.8" />
+    <circle cx="300" cy="72" r="6.2" />
+    <circle cx="350" cy="78" r="6.8" />
+    <circle cx="400" cy="88" r="7.2" />
+    <circle cx="450" cy="100" r="7.5" />
+    <circle cx="500" cy="112" r="7.8" />
+    <circle cx="550" cy="118" r="7.5" />
+    <circle cx="600" cy="115" r="6.8" />
+    <circle cx="650" cy="105" r="6.0" />
+    <circle cx="700" cy="92" r="5.0" />
+    <circle cx="750" cy="80" r="4.2" />
+    <circle cx="800" cy="72" r="3.5" />
+    <circle cx="850" cy="70" r="3.0" />
+    <circle cx="900" cy="74" r="2.8" />
+    <circle cx="950" cy="82" r="2.5" />
+
+    {/* Row 3 */}
+    <circle cx="50" cy="150" r="3.5" />
+    <circle cx="100" cy="142" r="4.5" />
+    <circle cx="150" cy="132" r="5.5" />
+    <circle cx="200" cy="120" r="6.5" />
+    <circle cx="250" cy="110" r="7.2" />
+    <circle cx="300" cy="106" r="7.8" />
+    <circle cx="350" cy="112" r="8.2" />
+    <circle cx="400" cy="125" r="8.8" />
+    <circle cx="450" cy="140" r="9.2" />
+    <circle cx="500" cy="155" r="9.5" />
+    <circle cx="550" cy="162" r="9.0" />
+    <circle cx="600" cy="158" r="8.2" />
+    <circle cx="650" cy="145" r="7.2" />
+    <circle cx="700" cy="130" r="6.0" />
+    <circle cx="750" cy="116" r="5.0" />
+    <circle cx="800" cy="106" r="4.0" />
+    <circle cx="850" cy="102" r="3.5" />
+    <circle cx="900" cy="108" r="3.0" />
+    <circle cx="950" cy="118" r="2.8" />
+
+    {/* Row 4 - Crest Distortion */}
+    <circle cx="50" cy="200" r="4.0" />
+    <circle cx="100" cy="190" r="5.2" />
+    <circle cx="150" cy="176" r="6.5" />
+    <circle cx="200" cy="160" r="7.8" />
+    <circle cx="250" cy="148" r="8.5" />
+    <circle cx="300" cy="142" r="9.2" />
+    <circle cx="350" cy="150" r="9.8" />
+    <circle cx="400" cy="165" r="10.2" />
+    <circle cx="450" cy="184" r="10.8" />
+    <circle cx="500" cy="202" r="11.2" />
+    <circle cx="550" cy="212" r="10.5" />
+    <circle cx="600" cy="206" r="9.5" />
+    <circle cx="650" cy="190" r="8.2" />
+    <circle cx="700" cy="172" r="6.8" />
+    <circle cx="750" cy="155" r="5.5" />
+    <circle cx="800" cy="142" r="4.5" />
+    <circle cx="850" cy="136" r="3.8" />
+    <circle cx="900" cy="144" r="3.2" />
+    <circle cx="950" cy="156" r="2.8" />
+
+    {/* Row 5 */}
+    <circle cx="50" cy="250" r="4.2" />
+    <circle cx="100" cy="238" r="5.5" />
+    <circle cx="150" cy="222" r="7.0" />
+    <circle cx="200" cy="204" r="8.5" />
+    <circle cx="250" cy="190" r="9.5" />
+    <circle cx="300" cy="182" r="10.5" />
+    <circle cx="350" cy="190" r="11.0" />
+    <circle cx="400" cy="208" r="11.8" />
+    <circle cx="450" cy="230" r="12.2" />
+    <circle cx="500" cy="252" r="12.5" />
+    <circle cx="550" cy="264" r="11.8" />
+    <circle cx="600" cy="256" r="10.8" />
+    <circle cx="650" cy="238" r="9.2" />
+    <circle cx="700" cy="216" r="7.5" />
+    <circle cx="750" cy="196" r="6.0" />
+    <circle cx="800" cy="180" r="4.8" />
+    <circle cx="850" cy="172" r="4.0" />
+    <circle cx="900" cy="180" r="3.5" />
+    <circle cx="950" cy="195" r="3.0" />
+
+    {/* Row 6 - Center Pinch Wave */}
+    <circle cx="50" cy="310" r="4.5" />
+    <circle cx="100" cy="295" r="5.8" />
+    <circle cx="150" cy="275" r="7.2" />
+    <circle cx="200" cy="252" r="8.8" />
+    <circle cx="250" cy="235" r="10.0" />
+    <circle cx="300" cy="225" r="11.2" />
+    <circle cx="350" cy="235" r="12.0" />
+    <circle cx="400" cy="256" r="12.8" />
+    <circle cx="450" cy="282" r="13.2" />
+    <circle cx="500" cy="308" r="13.5" />
+    <circle cx="550" cy="322" r="12.5" />
+    <circle cx="600" cy="312" r="11.2" />
+    <circle cx="650" cy="290" r="9.5" />
+    <circle cx="700" cy="265" r="7.8" />
+    <circle cx="750" cy="242" r="6.2" />
+    <circle cx="800" cy="225" r="5.0" />
+    <circle cx="850" cy="216" r="4.2" />
+    <circle cx="900" cy="225" r="3.6" />
+    <circle cx="950" cy="242" r="3.0" />
+
+    {/* Row 7 */}
+    <circle cx="50" cy="370" r="4.2" />
+    <circle cx="100" cy="355" r="5.5" />
+    <circle cx="150" cy="335" r="6.8" />
+    <circle cx="200" cy="310" r="8.2" />
+    <circle cx="250" cy="292" r="9.5" />
+    <circle cx="300" cy="280" r="10.5" />
+    <circle cx="350" cy="290" r="11.2" />
+    <circle cx="400" cy="312" r="12.0" />
+    <circle cx="450" cy="340" r="12.5" />
+    <circle cx="500" cy="368" r="12.8" />
+    <circle cx="550" cy="382" r="11.8" />
+    <circle cx="600" cy="370" r="10.5" />
+    <circle cx="650" cy="346" r="8.8" />
+    <circle cx="700" cy="320" r="7.2" />
+    <circle cx="750" cy="296" r="5.8" />
+    <circle cx="800" cy="278" r="4.8" />
+    <circle cx="850" cy="268" r="4.0" />
+    <circle cx="900" cy="278" r="3.5" />
+    <circle cx="950" cy="296" r="2.8" />
+
+    {/* Row 8 */}
+    <circle cx="50" cy="430" r="3.8" />
+    <circle cx="100" cy="415" r="4.8" />
+    <circle cx="150" cy="395" r="6.0" />
+    <circle cx="200" cy="370" r="7.2" />
+    <circle cx="250" cy="352" r="8.2" />
+    <circle cx="300" cy="340" r="9.2" />
+    <circle cx="350" cy="350" r="9.8" />
+    <circle cx="400" cy="370" r="10.5" />
+    <circle cx="450" cy="396" r="11.0" />
+    <circle cx="500" cy="422" r="11.2" />
+    <circle cx="550" cy="434" r="10.2" />
+    <circle cx="600" cy="422" r="9.2" />
+    <circle cx="650" cy="400" r="7.8" />
+    <circle cx="700" cy="375" r="6.2" />
+    <circle cx="750" cy="352" r="5.0" />
+    <circle cx="800" cy="335" r="4.2" />
+    <circle cx="850" cy="326" r="3.5" />
+    <circle cx="900" cy="335" r="3.0" />
+    <circle cx="950" cy="352" r="2.5" />
+
+    {/* Row 9 - Lower Counter Wave */}
+    <circle cx="50" cy="490" r="3.2" />
+    <circle cx="100" cy="478" r="4.0" />
+    <circle cx="150" cy="460" r="5.0" />
+    <circle cx="200" cy="438" r="6.0" />
+    <circle cx="250" cy="420" r="7.0" />
+    <circle cx="300" cy="410" r="7.8" />
+    <circle cx="350" cy="418" r="8.2" />
+    <circle cx="400" cy="435" r="8.8" />
+    <circle cx="450" cy="458" r="9.2" />
+    <circle cx="500" cy="482" r="9.5" />
+    <circle cx="550" cy="492" r="8.8" />
+    <circle cx="600" cy="482" r="7.8" />
+    <circle cx="650" cy="462" r="6.5" />
+    <circle cx="700" cy="440" r="5.2" />
+    <circle cx="750" cy="420" r="4.2" />
+    <circle cx="800" cy="405" r="3.5" />
+    <circle cx="850" cy="398" r="3.0" />
+    <circle cx="900" cy="405" r="2.6" />
+    <circle cx="950" cy="420" r="2.2" />
+
+    {/* Row 10 */}
+    <circle cx="50" cy="550" r="2.8" />
+    <circle cx="100" cy="540" r="3.4" />
+    <circle cx="150" cy="524" r="4.2" />
+    <circle cx="200" cy="504" r="5.0" />
+    <circle cx="250" cy="488" r="5.8" />
+    <circle cx="300" cy="480" r="6.4" />
+    <circle cx="350" cy="488" r="6.8" />
+    <circle cx="400" cy="502" r="7.2" />
+    <circle cx="450" cy="522" r="7.6" />
+    <circle cx="500" cy="544" r="7.8" />
+    <circle cx="550" cy="552" r="7.2" />
+    <circle cx="600" cy="544" r="6.4" />
+    <circle cx="650" cy="526" r="5.4" />
+    <circle cx="700" cy="506" r="4.4" />
+    <circle cx="750" cy="488" r="3.6" />
+    <circle cx="800" cy="475" r="3.0" />
+    <circle cx="850" cy="468" r="2.6" />
+    <circle cx="900" cy="475" r="2.2" />
+    <circle cx="950" cy="488" r="2.0" />
+
+    {/* Row 11 to 16 Bottom Undulation */}
+    <circle cx="50" cy="610" r="2.5" />
+    <circle cx="150" cy="585" r="3.8" />
+    <circle cx="250" cy="550" r="5.0" />
+    <circle cx="350" cy="550" r="5.8" />
+    <circle cx="450" cy="582" r="6.5" />
+    <circle cx="550" cy="610" r="6.0" />
+    <circle cx="650" cy="585" r="4.8" />
+    <circle cx="750" cy="550" r="3.2" />
+    <circle cx="850" cy="530" r="2.4" />
+
+    <circle cx="50" cy="680" r="2.2" />
+    <circle cx="150" cy="650" r="3.2" />
+    <circle cx="250" cy="615" r="4.2" />
+    <circle cx="350" cy="615" r="4.8" />
+    <circle cx="450" cy="645" r="5.5" />
+    <circle cx="550" cy="675" r="5.0" />
+    <circle cx="650" cy="650" r="4.0" />
+    <circle cx="750" cy="615" r="2.8" />
+    <circle cx="850" cy="595" r="2.0" />
+
+    <circle cx="50" cy="760" r="2.0" />
+    <circle cx="150" cy="725" r="2.8" />
+    <circle cx="250" cy="690" r="3.5" />
+    <circle cx="350" cy="690" r="4.0" />
+    <circle cx="450" cy="720" r="4.5" />
+    <circle cx="550" cy="750" r="4.0" />
+    <circle cx="650" cy="725" r="3.2" />
+    <circle cx="750" cy="690" r="2.2" />
+    <circle cx="850" cy="670" r="1.8" />
+
+    <circle cx="50" cy="850" r="1.8" />
+    <circle cx="150" cy="810" r="2.2" />
+    <circle cx="250" cy="775" r="2.8" />
+    <circle cx="350" cy="775" r="3.2" />
+    <circle cx="450" cy="805" r="3.5" />
+    <circle cx="550" cy="835" r="3.0" />
+    <circle cx="650" cy="810" r="2.5" />
+    <circle cx="750" cy="775" r="1.8" />
+
+    <circle cx="50" cy="940" r="1.5" />
+    <circle cx="250" cy="860" r="2.2" />
+    <circle cx="450" cy="890" r="2.8" />
+    <circle cx="650" cy="890" r="2.0" />
+  </g>
+</svg>
