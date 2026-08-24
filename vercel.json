@@ -1,4 +1,10 @@
 {
+  "buildCommand": "react-scripts build",
+  "framework": "create-react-app",
+  "env": {
+    "CI": "false",
+    "DISABLE_ESLINT_PLUGIN": "true"
+  },
   "rewrites": [
     { "source": "/service-worker.js", "destination": "/service-worker.js" },
     { "source": "/manifest.json", "destination": "/manifest.json" },
