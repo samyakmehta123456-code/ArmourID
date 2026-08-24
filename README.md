@@ -12,9 +12,10 @@
   <p><em>DPDP Act 2023 Compliant Data Fiduciary</em></p>
   <br />
 
-  [![DPDP Act 2023 Compliant](https://img.shields.io/badge/DPDP_Act_2023-Compliant_Fiduciary-34C759?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
+  [![Live Web App](https://img.shields.io/badge/Live_App-armour--id.vercel.app-34C759?style=for-the-badge&logo=vercel)](https://armour-id.vercel.app)
+  [![DPDP Act 2023 Compliant](https://img.shields.io/badge/DPDP_Act_2023-Compliant_Fiduciary-FFCC00?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
   [![React 18](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge)](https://reactjs.org/)
-  [![PWA Ready](https://img.shields.io/badge/PWA-Standalone_Fullscreen-FFCC00?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
+  [![PWA Ready](https://img.shields.io/badge/PWA-Standalone_Fullscreen-0284C7?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
   <br />
 </div>
