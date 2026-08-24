@@ -4,7 +4,7 @@ import Button from '../../components/common/Button';
 import Badge from '../../components/common/Badge';
 import { useVault } from '../../context/VaultContext';
 import { useAuth } from '../../context/AuthContext';
-import { ShieldCheck, Lock, Activity } from 'lucide-react';
+import { Lock, Activity } from 'lucide-react';
 
 export default function DashboardTab({ onNavigate, theme = 'light', colors }) {
   const { documents, auxiliaryFields, connectedPortals, auditLogs } = useVault();
