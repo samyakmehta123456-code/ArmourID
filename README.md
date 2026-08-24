@@ -1,9 +1,25 @@
-# ArmourID — Secure AI-Driven Identity Vault & Scoped Auto-Fill
+<div align="center">
+  <br />
+  <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50 5 L88 24V60 C88 78 50 95 50 95 C50 95 12 78 12 60V24 L50 5Z" fill="#34C759" stroke="#248A3D" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M50 12 L80 28V56 C80 70 50 85 50 85 C50 85 20 70 20 56V28 L50 12Z" fill="#FFCC00"/>
+    <path d="M34 56L40 40L50 48L60 40L66 56H34Z" fill="#34C759"/>
+    <rect x="36" y="58" width="28" height="4" rx="2" fill="#FFCC00"/>
+    <circle cx="50" cy="30" r="4" fill="#34C759"/>
+  </svg>
+  <h1>ArmourID</h1>
+  <p><strong>Secure AI-Driven Identity Vault & Scoped Auto-Fill Mobile App</strong></p>
+  <p><em>DPDP Act 2023 Compliant Data Fiduciary</em></p>
+  <br />
 
-[![DPDP Act 2023 Compliant](https://img.shields.io/badge/DPDP_Act_2023-Compliant_Fiduciary-34C759?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
-[![React 18](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge)](https://reactjs.org/)
-[![PWA Ready](https://img.shields.io/badge/PWA-Standalone_Fullscreen-FFCC00?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+  [![DPDP Act 2023 Compliant](https://img.shields.io/badge/DPDP_Act_2023-Compliant_Fiduciary-34C759?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
+  [![React 18](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge)](https://reactjs.org/)
+  [![PWA Ready](https://img.shields.io/badge/PWA-Standalone_Fullscreen-FFCC00?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+  <br />
+</div>
+
+---
 
 **ArmourID** is a next-generation, zero-knowledge identity vault and scoped form auto-fill mobile application engineered to serve as a compliant **Data Fiduciary** under India's **Digital Personal Data Protection (DPDP) Act 2023**.
 
