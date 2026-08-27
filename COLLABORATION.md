@@ -33,12 +33,12 @@ Do not commit directly to `main`. Create a descriptive feature branch for your t
 # Example for adding a new college form
 git checkout -b feature/add-jee-form
 
-# Example for updating crypto utility
-git checkout -b feature/crypto-enhancement
+# Example for updating backend crypto
+git checkout -b feature/backend-crypto
 ```
 
 ### Step 3: Commit & Push Your Work
-Write clean, modular code. Test your changes locally (`npm start`), then commit and push:
+Write clean, modular code. Test your changes locally, then commit and push:
 ```bash
 git add .
 git commit -m "Add JEE Main 2026 application form template"
@@ -46,7 +46,7 @@ git push origin feature/add-jee-form
 ```
 
 ### Step 4: Open a Pull Request (PR)
-1. Go to [github.com/samyakmehta123456-code/ArmourID](https://github.com/samyakmehta123456-code/ArmourID).
+1. Go to [github.com/samyakmehta123456-code/ArmourID_Workspace](https://github.com/samyakmehta123456-code/ArmourID_Workspace).
 2. Click **Compare & Pull Request**.
 3. Add a brief title and description of your changes.
 4. **Samyak Mehta** (Project Lead) will review your code and click **Merge Pull Request**.
@@ -58,28 +58,22 @@ git push origin feature/add-jee-form
 ## 📁 Repository Directory Structure
 
 ```text
-ArmourID/
-├── public/                  # PWA Manifest, Service Worker, and Index HTML
-│   ├── index.html           # Fullscreen PWA Meta Tags & Root Container
-│   ├── manifest.json        # Standalone Display & Color Definitions
-│   └── service-worker.js    # Offline Caching & WebAPK Engine
-├── src/
-│   ├── components/          # Reusable UI Components & Modals
-│   │   ├── common/          # Button, Badge, Card, CrestLogo, Header, Input
-│   │   └── modals/          # ConsentSheet, BiometricModal, AddAuxiliaryModal
-│   ├── context/             # React Context Providers
-│   │   ├── AuthContext.js   # User Authentication & MFA State
-│   │   ├── ThemeContext.js  # Color System & SF Pro Typography Tokens
-│   │   └── VaultContext.js  # DigiLocker Docs, Auxiliary Fields & Portals
-│   ├── screens/             # Main Application Screens & Tabs
-│   │   ├── main/            # DashboardTab, VaultTab, PortalsTab, AutoFillTab...
-│   │   └── onboarding/      # SplashScreen & OnboardingCarousel
-│   ├── theme/               # FaceTime Green (#34C759) & Sunburst Yellow (#FFCC00)
-│   └── utils/               # Auto-Fill Engine, HMAC Scoped HashID & AES-256
+ArmourID_Workspace/
+├── Frontend_app/            # React 18 PWA Mobile Web App
+│   ├── public/              # Manifest, Service Worker, and Index HTML
+│   ├── src/                 # Screen Tabs, Modals, Context, and Theme Tokens
+│   └── vercel.json          # Vercel Production Build Rules
+├── Backend/                 # FastAPI Microservice Gateway
+│   ├── main.py              # Application Entry Point & CORS Setup
+│   ├── requirements.txt     # Dependency Definitions
+│   └── README.md            # Backend Setup Instructions
+├── Database/                # PostgreSQL Security & DDL Infrastructure
+│   ├── schema.sql           # Tables, Indexes & Row-Level Security (RLS)
+│   ├── seed_data.sql        # Initial Test Data
+│   └── README.md            # Database Migration Guide
 ├── COLLABORATION.md         # Team Git Guide (This File)
 ├── PROJECT_REPORT.md        # Full Academic Project Report Documentation
-├── README.md                # Public Overview & Quickstart Guide
-└── vercel.json              # Vercel Deployment Routing Rules
+└── README.md                # Public Workspace Overview
 ```
 
 ---
@@ -100,11 +94,11 @@ ArmourID/
 ## 🚀 Useful Commands
 
 ```bash
-# Start local dev server
-npm start
+# Start frontend app
+cd Frontend_app && npm start
 
-# Run production build
-npm run build
+# Run backend FastAPI service
+cd Backend && uvicorn main:app --reload
 
 # Check git status
 git status
