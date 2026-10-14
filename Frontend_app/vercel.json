@@ -1,9 +1,9 @@
 {
-  "buildCommand": "react-scripts build",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
   "framework": "create-react-app",
   "env": {
-    "CI": "false",
-    "DISABLE_ESLINT_PLUGIN": "true"
+    "CI": "false"
   },
   "rewrites": [
     { "source": "/manifest.json", "destination": "/manifest.json" },
