@@ -1,5 +1,6 @@
 node_modules
 /build
+Frontend_app/build
 .expo
 .env
 .DS_Store
