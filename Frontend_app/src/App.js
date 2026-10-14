@@ -5,6 +5,7 @@ import { VaultProvider, useVault } from './context/VaultContext';
 import Header from './components/common/Header';
 import SplashScreen from './screens/onboarding/SplashScreen';
 import OnboardingCarousel from './screens/onboarding/OnboardingCarousel';
+import LoginScreen from './screens/auth/LoginScreen';
 import DashboardTab from './screens/main/DashboardTab';
 import VaultTab from './screens/main/VaultTab';
 import PortalsTab from './screens/main/PortalsTab';
@@ -16,6 +17,7 @@ import { LayoutDashboard, ShieldCheck, Hash, SlidersHorizontal, FileText, Activi
 
 function MainApp() {
   const { theme, colors } = useTheme();
+  const { isAuthenticated } = useAuth();
   const [showSplash, setShowSplash] = useState(true);
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -48,6 +50,14 @@ function MainApp() {
 
   if (showSplash) {
     return <SplashScreen onFinish={() => setShowSplash(false)} theme={theme} colors={colors} />;
+  }
+
+  if (!isAuthenticated) {
+    return (
+      <div style={backgroundStyle}>
+        <LoginScreen theme={theme} colors={colors} />
+      </div>
+    );
   }
 
   if (showOnboarding) {

@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from 'react';
 const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState({
     name: 'Siddharth R. Sharma',
     email: 'siddharth.sharma@example.in',
@@ -17,6 +17,20 @@ export function AuthProvider({ children }) {
   });
 
   const [isLocked, setIsLocked] = useState(false);
+
+  const login = (email, pin) => {
+    setIsAuthenticated(true);
+    setIsLocked(false);
+  };
+
+  const loginWithBiometrics = () => {
+    setIsAuthenticated(true);
+    setIsLocked(false);
+  };
+
+  const logout = () => {
+    setIsAuthenticated(false);
+  };
 
   const lockVault = () => setIsLocked(true);
   const unlockVault = () => setIsLocked(false);
@@ -39,6 +53,9 @@ export function AuthProvider({ children }) {
         isAuthenticated,
         user,
         isLocked,
+        login,
+        loginWithBiometrics,
+        logout,
         lockVault,
         unlockVault,
         toggleMFA,

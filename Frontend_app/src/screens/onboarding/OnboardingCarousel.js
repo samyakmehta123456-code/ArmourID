@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Card from '../../components/common/Card';
 import Button from '../../components/common/Button';
 import CrestLogo from '../../components/common/CrestLogo';
-import { ShieldCheck, Hash, Lock, FileText, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ShieldCheck, Hash, Lock, FileText, CheckCircle2 } from 'lucide-react';
 
 export default function OnboardingCarousel({ onComplete, theme = 'light', colors }) {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -161,10 +161,9 @@ export default function OnboardingCarousel({ onComplete, theme = 'light', colors
             onClick={handleNext}
             theme={theme}
             colors={colors}
-            icon={ArrowRight}
             style={{ flex: 2 }}
           >
-            {slideIndex === slides.length - 1 ? 'Get Started & Link Vault' : 'Continue'}
+            {slideIndex === slides.length - 1 ? 'Get Started' : 'Continue'}
           </Button>
         </div>
       </div>

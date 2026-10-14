@@ -8,7 +8,7 @@ import { useAuth } from '../../context/AuthContext';
 import { FileText, Mail } from 'lucide-react';
 
 export default function SettingsTab({ theme = 'light', colors }) {
-  const { user, toggleMFA, toggleBiometrics } = useAuth();
+  const { user, toggleMFA, toggleBiometrics, logout } = useAuth();
   const [isWhitepaperOpen, setIsWhitepaperOpen] = useState(false);
 
   return (
@@ -109,6 +109,26 @@ export default function SettingsTab({ theme = 'light', colors }) {
             </Button>
           </div>
         </Card>
+      </div>
+
+      {/* Sign Out Button */}
+      <div style={{ marginTop: 24 }}>
+        <Button
+          variant="outline"
+          onClick={logout}
+          theme={theme}
+          colors={colors}
+          style={{
+            width: '100%',
+            padding: '12px 16px',
+            borderRadius: 12,
+            borderColor: '#EF4444',
+            color: '#DC2626',
+            fontWeight: '600',
+          }}
+        >
+          Sign Out
+        </Button>
       </div>
 
       <WhitepaperModal
