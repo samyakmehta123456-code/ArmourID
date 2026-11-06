@@ -1,0 +1,23 @@
+# ==============================================================================
+# ArmourID - GitHub Linguist Language Configuration
+# Enforces exact tech stack representation on GitHub matching production specs
+# ==============================================================================
+
+# 1. Frontend: Map React source files to TypeScript
+Frontend_app/src/** linguist-language=TypeScript
+
+# 2. Database: Detect PostgreSQL / PLpgSQL schemas and migration scripts
+Database/*.sql linguist-detectable=true
+Database/*.sql linguist-language=PLpgSQL
+
+# 3. Backend: Ensure Python microservices & AI document processing pipelines are detected
+Backend/**/*.py linguist-detectable=true
+Backend/**/*.py linguist-language=Python
+
+# 4. Vendor & Generated: Prevent lockfiles, SVGs, and bundles from skewing language metrics
+Frontend_app/package-lock.json linguist-generated=true
+Frontend_app/public/*.svg linguist-generated=true
+Frontend_app/public/*.png linguist-generated=true
+Frontend_app/public/*.ico linguist-generated=true
+Frontend_app/build/** linguist-generated=true
+build/** linguist-generated=true

@@ -14,8 +14,13 @@
 
   [![Live Web App](https://img.shields.io/badge/Live_App-armour--id.vercel.app-34C759?style=for-the-badge&logo=vercel)](https://armour-id.vercel.app)
   [![DPDP Act 2023 Compliant](https://img.shields.io/badge/DPDP_Act_2023-Compliant_Fiduciary-FFCC00?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
-  [![React 18](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge)](https://reactjs.org/)
-  [![PWA Ready](https://img.shields.io/badge/PWA-Standalone_Fullscreen-0284C7?style=for-the-badge)](https://github.com/samyakmehta123456-code/ArmourID)
+  [![React 18](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+  [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+  [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+  [![LayoutLMv3](https://img.shields.io/badge/LayoutLMv3-AI_Document_OCR-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
   <br />
 </div>
